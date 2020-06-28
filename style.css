@@ -1,0 +1,66 @@
+body {
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-flow: wrap;
+  width: 400px;
+  height: 55%;
+  box-sizing: border-box;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.display {
+  height: 16%;
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.base {
+  width: 30%;
+  height: 80%;
+  flex-grow: 2;
+  border-radius: 5px;
+  display: flex;
+  box-sizing: border-box;
+  flex-flow: wrap-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnbase {
+  width: 25%;
+  height: 20%;
+  margin: 0 2%;
+  flex-grow: 1;
+  border: none;
+  border-radius: 5px;
+}
+
+.operadores {
+  width: 10%;iolet;
+  height: 80%;
+  flex-grow: 1;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.btnoperadores {
+  width: 40%;
+  height: 20%;
+  margin: 0 2%;
+  flex-grow: 1;
+  border: none;
+  border-radius: 5px;
+}

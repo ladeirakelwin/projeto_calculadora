@@ -2,9 +2,22 @@
 let calculadora = {};
 calculadora.display = document.querySelector("#display");
 
-let botaoUm = document.querySelector("#numeroUm");
 let botaoSoma = document.querySelector("#soma");
+
+
 let botaoIgual = document.querySelector("#igual");
+let botaoPonto = document.querySelector("#ponto");
+let botaoZero = document.querySelector("#numeroZero");
+let botaoUm = document.querySelector("#numeroUm");
+let botaoDois = document.querySelector("#numeroDois");
+let botaoTres = document.querySelector("#numeroTres");
+let botaoQuatro = document.querySelector("#numeroQuatro");
+let botaoCinco = document.querySelector("#numeroCinco");
+let botaoSeis = document.querySelector("#numeroSeis");
+let botaoSete = document.querySelector("#numeroSete");
+let botaoOito = document.querySelector("#numeroOito");
+let botaoNove = document.querySelector("#numeroNove");
+
 
 let acumulador = "";
 
