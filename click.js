@@ -73,7 +73,7 @@ botaoCA.onclick = function(){
 }
 
 botaoC.onclick = function(){
-  calculadora.display.textContent = ""
+  calculadora.display.textContent = calculadora.display.textContent.replace(/.$/,"");
 }
 
 //parenteses
