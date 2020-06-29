@@ -22,7 +22,9 @@ botaoIgual.onclick = function() {
 }
 
 botaoPonto.onclick = function(){
-  calculadora.display.textContent += ".";
+  if(!valida(calculadora.display.textContent)){
+    calculadora.display.textContent += ".";
+  }
 }
 
 botaoUm.onclick = function() {
