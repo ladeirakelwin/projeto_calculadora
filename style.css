@@ -46,6 +46,18 @@ body {
   border-radius: 5px;
 }
 
+#ponto{
+  background: rgba(0, 0, 0, 0.5);
+  color: #FFF;
+}
+
+#igual{
+  background: rgba(0, 0, 255, 0.5);
+  color: #FFF;
+}
+
+
+
 .operadores {
   width: 10%;
   height: 80%;
@@ -64,4 +76,9 @@ body {
   flex-grow: 1;
   border: none;
   border-radius: 5px;
+}
+
+.cleaner{
+  background: rgba(255, 0, 0, 0.5);
+  color: #FFF;
 }
