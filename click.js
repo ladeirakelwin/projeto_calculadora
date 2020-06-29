@@ -89,27 +89,23 @@ botaoFParenteses.onclick = function() {
 //operações básicas
 
 botaoSubtracao.onclick = function() {
-  acumulador += calculadora.display.textContent;
-  acumulador += " - ";
-  calculadora.display.textContent = "";
+  calculadora.display.textContent += " - ";
+  // calculadora.display.textContent = "";
 }
 
 botaoVezes.onclick = function() {
-  acumulador += calculadora.display.textContent;
-  acumulador += " * ";
-  calculadora.display.textContent = "";
+  calculadora.display.textContent += " * ";
+  // calculadora.display.textContent = "";
 }
 
 botaoDivisao.onclick = function() {
-  acumulador += calculadora.display.textContent;
-  acumulador += " / ";
-  calculadora.display.textContent = "";
+  calculadora.display.textContent += " / ";
+  // calculadora.display.textContent = "";
 }
 
 botaoSoma.onclick = function() {
-  acumulador += calculadora.display.textContent;
-  acumulador += " + ";
-  calculadora.display.textContent = "";
+  calculadora.display.textContent += " + ";
+  // calculadora.display.textContent = "";
 }
 
 // setInterval(() => {
