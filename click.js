@@ -119,8 +119,9 @@ botaoSoma.onclick = function() {
 function valida(arr){
   return (/[-+*/.]/.test(arr[arr.length -1]))?true:false;
 }
-// function limita
 
-setInterval(() => {
-  console.log(calculadora.display.textContent[calculadora.display.textContent.length-1])  
-},1000);
+
+//testador de valores
+// setInterval(() => {
+//   console.log(calculadora.display.textContent[calculadora.display.textContent.length-1])  
+// },1000);
